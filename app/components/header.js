@@ -6,7 +6,8 @@ const Header = () => (
     <section className="column is-desktop">
       <nav className="navbar is-white is-fixed-top" role="navigation" aria-label="main navigation">
         <div className="container is-desktop">
-          <div className="navbar-brand"><a className="navbar-item"><img src="http://via.placeholder.com/112x28" width="112" height="28" alt="Logo"/></a></div>
+          <div className="navbar-brand">
+          <div className="navbar-item"><b>Chain Reaction</b></div> </div>
           <div className="navbar-menu">
               <div className="navbar-end">
                 <div className="navbar-item"><Link to='/'>Home</Link></div>
